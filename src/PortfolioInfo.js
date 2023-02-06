@@ -35,7 +35,11 @@ const projectDetails = [
       "https://hamna.dev/static/media/foodies.189763faf5c9df0bbe44.png",
     projectName: "Foodies App",
     projectDescription: "A UI For foodies app created using ReactJS",
-    iconsClassName: ["fab fa-html5"],
+    iconsClassName: [
+      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
+      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
+      "../src/assets/Frameworks, Langauges Icons/React.svg",
+    ],
   },
   {
     projectImage:
@@ -43,7 +47,11 @@ const projectDetails = [
     projectName: "HULU Clone",
     projectDescription:
       "HULU Clone, View all the latest movies category wise. Built using TMDB API.",
-    iconsClassName: ["fab fa-html5", "fab fa-css3-alt"],
+    iconsClassName: [
+      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
+      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
+      "../src/assets/Frameworks, Langauges Icons/React.svg",
+    ],
   },
   {
     projectImage:
@@ -51,7 +59,11 @@ const projectDetails = [
     projectName: "Airbnb Clone",
     projectDescription:
       "Airbnb home Page UI design , designed Using React Js with CSS.",
-    iconsClassName: ["fab fa-html5", "fab fa-css3-alt", "fab fa-react"],
+    iconsClassName: [
+      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
+      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
+      "../src/assets/Frameworks, Langauges Icons/React.svg",
+    ],
   },
   {
     projectImage:
@@ -59,7 +71,11 @@ const projectDetails = [
     projectName: "Airbnb Clone",
     projectDescription:
       "Airbnb home Page UI design , designed Using React Js with CSS.",
-    iconsClassName: ["fab fa-html5", "fab fa-css3-alt", "fab fa-react"],
+    iconsClassName: [
+      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
+      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
+      "../src/assets/Frameworks, Langauges Icons/React.svg",
+    ],
   },
   {
     projectImage:
@@ -67,7 +83,11 @@ const projectDetails = [
     projectName: "Airbnb Clone",
     projectDescription:
       "Airbnb home Page UI design , designed Using React Js with CSS.",
-    iconsClassName: ["fab fa-html5", "fab fa-css3-alt", "fab fa-react"],
+    iconsClassName: [
+      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
+      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
+      "../src/assets/Frameworks, Langauges Icons/React.svg",
+    ],
   },
 ];
 

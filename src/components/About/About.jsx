@@ -11,7 +11,7 @@ const About = () => {
       className={`${
         mode === "dark" ? "bg-[#1e1818]" : "bg-white"
       }  sm:w-full xs:h-max absolute xs:top-[130rem] 
-      sm:top-[133rem] md:top-[130rem] lg:py-[10rem]  lg:top-[83rem] xl:top-[80rem] 2xl:top-[80rem] -z-10 items-center justify-center`}
+      sm:top-[133rem] md:top-[130rem] lg:py-[10rem]  lg:top-[83rem] xl:top-[80rem] 2xl:top-[80rem] items-center justify-center`}
     >
       <div
         className={` ${
