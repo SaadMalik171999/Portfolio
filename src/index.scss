@@ -13,3 +13,38 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+$toggleCheck: #38e92b;
+$textColorDark: #ffffff;
+
+// toggle switch colors
+$toggleCheck: #38e92b;
+$toggleSwitchSliderBG: #ccc;
+
+$darkThemeBG: #1e1818;
+$lightThemeBG: white;
+$lightThemeText: black;
+$primaryThemeBG: #29ca1e;
+$primaryThemeText: #29ca1e;
+$primaryThemeHover: #38e92b;
+$primaryThemeShadow: #38e92b81;
+
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #38e92b; 
+    border-radius: 10px;
+  }
+  
+ 

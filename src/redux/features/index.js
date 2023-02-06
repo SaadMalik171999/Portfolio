@@ -2,9 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 const modetheme = window.localStorage.getItem("mode");
 const initialState = {
   mode: modetheme,
-  user: null,
-  token: null,
-  posts: [],
 };
 
 export const themeSlice = createSlice({

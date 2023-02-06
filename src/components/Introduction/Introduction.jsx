@@ -3,14 +3,16 @@ import PortfolioGIF from "../../assets/utils/programmer.json";
 import DisplayLottie from "../Lottie/DisplayLottie";
 import Button from "../Button/Button";
 import { useSelector } from "react-redux";
+import { devInformation } from "../../PortfolioInfo";
 const Introduction = () => {
   const { mode } = useSelector((state) => state.themes);
 
   return (
     <div
+      id="Introduction"
       className={`${
         mode === "dark" ? "bg-[#1e1818]" : "bg-white"
-      }  sm:w-full xs:h-max absolute top-[4rem] h-[42rem] -z-10 items-center justify-center`}
+      }  sm:w-full xs:h-max absolute top-[4rem] h-[42rem] items-center justify-center`}
     >
       <div
         className={` ${
@@ -21,22 +23,24 @@ const Introduction = () => {
       >
         <div className="sm:flex-1 xs:w-[580px] sm:w-[600px]">
           <div>
-            <h1 className="xs:text-5xl sm:text-6xl md:text-5xl">
-              Hi Chad's, I'm Saad Malik 👋
-            </h1>
+            {devInformation?.map((value, i) => {
+              return (
+                <>
+                  <h1 className="xs:text-5xl sm:text-6xl md:text-5xl">
+                    {value?.devIntro}
+                  </h1>
 
-            <p className="mt-8 xs:text-3xl sm:text-3xl md:text-3xl text-clip font-light">
-              A passionate Full Stack Software Developer 🚀 having an experience
-              of building Web and Mobile applications with JavaScript / React Js
-              / Angular TS / Node Js and some other cool libraries and
-              frameworks.
-            </p>
+                  <p className="mt-8 xs:text-3xl sm:text-3xl md:text-3xl text-clip font-light">
+                    {value?.devDetails}
+                  </p>
+                </>
+              );
+            })}
 
             <div className="flex mt-4">
               <Button
-                name="Download Resume"
-                href="../../assets/utils/Saad_Malik_Developer_Resume.pdf"
-                isDownload={true}
+                name="See my Resume"
+                href="https://drive.google.com/file/d/1p0FWefw8m9RiSKNqWcFyq8xhjSCjtEaQ/view"
               />
               <Button
                 name="View on Linkedin"

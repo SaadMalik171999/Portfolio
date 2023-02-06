@@ -1,23 +1,20 @@
 import React, { useState } from "react";
-import ToggleSwitch from "../../assets/utils/ToggleSwitch";
+import ToggleSwitch from "../Toggle Switch/ToggleSwitch";
 import { useSelector } from "react-redux";
 import { GrClose, GrMenu } from "react-icons/gr";
+import { Links } from "../../PortfolioInfo";
 
 const Header = () => {
   const { mode } = useSelector((state) => state.themes);
   const [open, setOpen] = useState(false);
 
-  const Links = [
-    { name: "Intro", link: "#intro" },
-    { name: "About", link: "#about" },
-    { name: "Skills", link: "#skills" },
-    { name: "Projects", link: "#projects" },
-    { name: "Contact", link: "#contact" },
-  ];
-
   return (
     <>
-      <div className="shadow-md w-full fixed top-0 left-0">
+      <div
+        className={` ${
+          mode === "dark" ? "shadow-sm shadow-[#38e92b]" : "shadow-md"
+        } w-full fixed top-0 left-0 z-50`}
+      >
         <div
           className={`md:flex items-center justify-between ${
             mode === "dark" ? "bg-[#1e1818]" : "bg-white"
