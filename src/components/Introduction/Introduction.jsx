@@ -12,7 +12,7 @@ const Introduction = () => {
       id="Introduction"
       className={`${
         mode === "dark" ? "bg-[#1e1818]" : "bg-white"
-      }  sm:w-full xs:h-max absolute top-[4rem] h-[42rem] items-center justify-center`}
+      }  sm:w-full xs:h-max absolute top-[4rem] h-[42rem] lg:p-10 items-center justify-center`}
     >
       <div
         className={` ${

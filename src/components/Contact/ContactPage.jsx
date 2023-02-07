@@ -11,7 +11,7 @@ const ContactPage = () => {
         id="Contact"
         className={` ${
           mode === "dark" ? "bg-[#1e1818]" : "bg-white"
-        } relative w-full xs:h-max lg:top-[125rem] md:pt-20 xs:top-[180rem] h-[37rem] xs:w-[643px] sm:w-full `}
+        } relative w-full xs:h-max lg:top-[125rem] md:pt-20 xs:top-[178rem] xs:p-10 h-[37rem] xs:w-[643px] sm:w-full `}
       >
         <h1
           className={` ${

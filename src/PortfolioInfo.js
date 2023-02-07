@@ -31,63 +31,76 @@ const Links = [
 
 const projectDetails = [
   {
-    projectImage:
-      "https://hamna.dev/static/media/foodies.189763faf5c9df0bbe44.png",
-    projectName: "Foodies App",
-    projectDescription: "A UI For foodies app created using ReactJS",
+    projectImage: "../src/assets/Project Images/Doctor Appointment .png",
+    projectName: "Doctor Appointment App",
+    projectDescription:
+      "A Doctor Appointment System app created using ReactJS, Node Js & MongoDB",
     iconsClassName: [
-      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
-      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
       "../src/assets/Frameworks, Langauges Icons/React.svg",
+      "../src/assets/Frameworks, Langauges Icons/Redux.svg",
+      "../src/assets/Frameworks, Langauges Icons/Taiwlind CSS.svg",
+      "../src/assets/Frameworks, Langauges Icons/Material UI.svg",
+      "../src/assets/Frameworks, Langauges Icons/Node.svg",
     ],
+    projectDirectoryURL:
+      "https://github.com/SaadMalik171999/Doctor_Appointment_System/tree/master",
   },
   {
-    projectImage:
-      "https://hamna.dev/static/media/hulu.bc092a5ed72105e1514f.png",
-    projectName: "HULU Clone",
+    projectImage: "../src/assets/Project Images/GFresh.png",
+    projectName: "GFresh Grocery App",
     projectDescription:
-      "HULU Clone, View all the latest movies category wise. Built using TMDB API.",
+      "A GFresh Grocery App created using NextJS, Node Js & MongoDB",
     iconsClassName: [
-      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
+      "../src/assets/Frameworks, Langauges Icons/Next Js.svg",
       "../src/assets/Frameworks, Langauges Icons/CSS.svg",
-      "../src/assets/Frameworks, Langauges Icons/React.svg",
+      "../src/assets/Frameworks, Langauges Icons/Node.svg",
     ],
+    projectDirectoryURL:
+      "https://github.com/SaadMalik171999/Doctor_Appointment_System/tree/master",
   },
   {
-    projectImage:
-      "https://hamna.dev/static/media/airbnb.16c49f0dd2cef80af529.png",
-    projectName: "Airbnb Clone",
+    projectImage: "../src/assets/Project Images/Youtube Clone.png",
+    projectName: "Youtube Clone",
     projectDescription:
-      "Airbnb home Page UI design , designed Using React Js with CSS.",
+      "A UI for Youtube app clone created using React, CSS & Rapid API ",
     iconsClassName: [
-      "../src/assets/Frameworks, Langauges Icons/HTML.svg",
-      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
       "../src/assets/Frameworks, Langauges Icons/React.svg",
+      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
+      "../src/assets/Frameworks, Langauges Icons/Rapid API.svg",
     ],
+    projectDirectoryURL:
+      "https://github.com/SaadMalik171999/React-Youtube-Clone",
   },
   {
-    projectImage:
-      "https://hamna.dev/static/media/airbnb.16c49f0dd2cef80af529.png",
-    projectName: "Airbnb Clone",
-    projectDescription:
-      "Airbnb home Page UI design , designed Using React Js with CSS.",
+    projectImage: "../src/assets/Project Images/E-ON Website.png",
+    projectName: "E-ON Commerce",
+    projectDescription: "A UI for E commerce app created using HTML CSS ",
     iconsClassName: [
       "../src/assets/Frameworks, Langauges Icons/HTML.svg",
       "../src/assets/Frameworks, Langauges Icons/CSS.svg",
-      "../src/assets/Frameworks, Langauges Icons/React.svg",
     ],
+    projectDirectoryURL: "https://e-on-website.netlify.app/",
   },
   {
-    projectImage:
-      "https://hamna.dev/static/media/airbnb.16c49f0dd2cef80af529.png",
-    projectName: "Airbnb Clone",
-    projectDescription:
-      "Airbnb home Page UI design , designed Using React Js with CSS.",
+    projectImage: "../src/assets/Project Images/Netflix.png",
+    projectName: "Netflix Clone",
+    projectDescription: "A UI for Netflix app clone created using HTML CSS ",
     iconsClassName: [
       "../src/assets/Frameworks, Langauges Icons/HTML.svg",
       "../src/assets/Frameworks, Langauges Icons/CSS.svg",
-      "../src/assets/Frameworks, Langauges Icons/React.svg",
     ],
+    projectDirectoryURL: "https://saad-netflix-clone.netlify.app/home",
+  },
+  {
+    projectImage: "../src/assets/Project Images/Old Portfolio.png",
+    projectName: "Old Portfolio",
+    projectDescription:
+      "Portfolio UI design , designed Using React Js with CSS.",
+    iconsClassName: [
+      "../src/assets/Frameworks, Langauges Icons/React.svg",
+      "../src/assets/Frameworks, Langauges Icons/CSS.svg",
+    ],
+    projectDirectoryURL: "https://saad-portfolio-react.netlify.app/",
   },
 ];
 

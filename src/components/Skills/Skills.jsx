@@ -16,7 +16,7 @@ const Skills = () => {
       id="Skills"
       className={`${
         mode === "dark" ? "bg-[#1e1818]" : "bg-white"
-      }  sm:w-full xs:h-max absolute xs:top-[60rem] lg:top-[40rem] h-[42rem] items-center justify-center`}
+      }  sm:w-full xs:h-max absolute xs:top-[60rem] lg:top-[40rem] lg:p-20 h-[42rem] items-center justify-center`}
     >
       <div
         className={` ${

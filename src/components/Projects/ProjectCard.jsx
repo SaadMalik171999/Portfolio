@@ -6,13 +6,19 @@ import { projectDetails } from "../../PortfolioInfo";
 const ProjectCard = () => {
   const { mode } = useSelector((state) => state.themes);
 
+  const projectDirectory = (url) => {
+    console.log(url?.projectDirectoryURL);
+    window.open(url?.projectDirectoryURL);
+  };
+
   return (
     <>
       {projectDetails?.map((value, i) => {
         return (
           <div
+            onClick={() => projectDirectory(value)}
             key={i}
-            className={`w-[19rem] z-10 h-[23rem] m-6  shadow-xl duration-500 hover:-translate-y-3 rounded-md
+            className={` cursor-pointer w-[19rem] z-10 h-[23rem] m-6  shadow-md duration-500 hover:-translate-y-3 rounded-md
              ${mode === "dark" ? "shadow-[#38e92b81]" : "shadow-grey-50"} `}
           >
             <div
@@ -24,16 +30,19 @@ const ProjectCard = () => {
             >
               <img className="rounded-t-md" src={value?.projectImage} />
               <div className="p-4">
-                <h1 className="text-xl font-semibold">{value?.projectName}</h1>
+                <h1
+                  className={`text-xl font-semibold ${
+                    mode === "dark" ? "text-[#38e92b]" : "text-[#1e1818]"
+                  } `}
+                >
+                  {value?.projectName}
+                </h1>
                 <p className="text-md mt-2 h-24">{value?.projectDescription}</p>
               </div>
-              <div className="border-t-2"></div>
+              <div className="border-t-2 border-[#38e92b]"></div>
 
               <div className="flex flex-wrap ml-1 justify-start items-center">
-                <CardIcon
-                  iconsClassName={value?.iconsClassName}
-                  colorsIconsClassName={value?.colorsIconsClassName}
-                />
+                <CardIcon iconsClassName={value?.iconsClassName} />
               </div>
             </div>
           </div>
